@@ -1,0 +1,49 @@
+.skill{
+    height: 100%;
+    overflow: hidden;
+    width: 1000px;
+    margin: 20px auto;
+    .skill_left{
+        background: #fff;
+        width: 780px;
+        padding: 0px 10px;
+        float: left;
+        .skill_tittle{
+            padding-top: 15px;
+            p,ul{display: inline-block;}
+            p{font-size: 22px;}
+            ul{float: right;overflow: hidden;}
+            li{color: #ccc;float: left;cursor: pointer;padding:0 8px;}
+            li:hover{color: #007fff;}     
+        }
+        .skill_content{
+            padding: 10px 0;
+            border-top: 1px solid #ccc;
+            .content_tittle a:first-child{color: #b71ed7}
+            .content_tittle a{padding:0 10px 15px 0px;}
+            p{font-size: 22px;padding: 10px 0;margin: 0;}
+            .content_icon{
+
+                overflow: hidden;
+                p{ 
+                    font-size: 16px;display: inline-block;
+                    a{border: 1px solid #ccc;padding:4px 0px;display: inline-block;width: 60px;text-align: center;}
+                }
+                p:nth-child(2){   display: none;margin-left: 5px; }
+            }
+            .content_icon:hover p{display: inline-block;}
+        }
+    }
+    .skill_right{
+        background: #fff;
+        width: 200px;
+        padding: 10px;
+        float: right;
+        .right_one{
+            p>a{float: right}
+            .content_list li{background: #eee;padding: 10px;display: inline-block;border-radius: 10%;font-size: 16px;margin: 5px;}    
+        }
+       
+    }
+}
+

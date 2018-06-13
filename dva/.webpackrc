@@ -1,0 +1,10 @@
+{
+  "entry": "src/index.js",
+  "publicPath": "/",
+  "outputPath":"./dist",
+  "disableCSSModules": true, 
+  "theme": "./theme.js",
+  "extraBabelPlugins": [
+   ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ]
+}
